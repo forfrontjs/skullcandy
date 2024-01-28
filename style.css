@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',Arial,sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: black;
+}
+
+.header_box{
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo{
+    width: 183.75px;
+    height: 35px;
+   
+}
+
+.icons img{
+    width: 25px;
+    height: 25px;
+    
+}
+.icons{
+    column-gap: 50px;
+    margin-right: 40px;
+}
+
+.icons img:nth-child(2){
+    margin: 0px 10px;
+}
+
+
+.burger_btn{
+    width: 28px;
+    height: 3px;
+    background: white;
+    position: relative;
+}
+
+.burger_btn::before{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    background: white;
+    top: -8px;
+}
+
+.burger_btn::after{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    background: white;
+    top: 8px;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 30px;
+    position: absolute;
+    display: none;
+    
+    background: black;
+}
+
+.menu_icons{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 470px;
+    column-gap: 10px;
+   
+    
+}
+
+.menu ul{
+    font-size: 20px ;
+    font-weight: 600;
+    color: white;
+    padding: 5px 0 55px;
+    list-style-type: none;
+   
+}
+
+.menu ul li{
+    margin: 0 0 20px;
+}
+
+.menu.active{
+    display: block;
+}
+
+.banner{
+    background: url("image/headpnes.png");
+    height: 743px;
+}
+
+.first_sec h1{
+    padding: 24px 0 24px 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 72px;
+    line-height: 1.17;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.first_sec{
+    padding-top: 52px;
+    padding-bottom: 42px;
+    
+    
+}
+
+.first_sec p{
+    font-size: 22px;
+    padding: 15px 0 30px 0;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.call_btns{  
+    margin: 45px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.call_btns button:first-child{
+    background: #f7f7f7;
+    width: 225px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    outline: none;
+    padding: 0px 60px;
+}
+
+.call_btns button:last-child{
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    outline: none;
+    width: 294px;
+    height: 60px;
+    padding: 0px 60px;
+}
