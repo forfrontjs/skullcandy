@@ -178,3 +178,21 @@ header{
     height: 60px;
     padding: 0px 60px;
 }
+.two{
+    background: black;
+    color: white;
+    padding: 7px 0 17px;
+}
+.two__text p{
+font-size: 28px;
+}
+.two__text h4{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.two__icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
