@@ -438,7 +438,17 @@ height: 400px;
                                                         font-size: 20px;
                                                         color: white;
                                                         margin-top: 20px;
+                                                        /* margin-right: 300px; */
                                                     }
-                                    
+                                                    .category del{
+                                                        color: red;
+                                                        font-size: 20px;
+                                                        margin-top: 20px;
+                                                    }
+                                                    .category__price{
+                                                        display: flex;
+                                                        column-gap: 30px;
+                                                    }
+
                             
                     
