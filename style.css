@@ -196,6 +196,7 @@ header{
 }
 .two__text p{
 font-size: 28px;
+padding-top: 50px;
 }
 .two__text h4{
     font-size: 26px;
@@ -207,3 +208,279 @@ font-size: 28px;
     justify-content: space-between;
     align-items: center;
 }
+.category{
+  background-color: #111;
+  padding-top: 100px;
+}
+.category h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.search{
+    position: relative;
+}
+.category__search{
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    right: 213px;
+    bottom: 1px;
+    border-left: 1px solid gray;
+}
+.category input{
+    width: 150px;
+    height: 25px;
+    margin-left: 70%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* /* }
+.category__img img{
+    width: 400px;
+    height: 400px;
+}
+.category__img{
+    display: flex;
+    /* column-gap: 100px;
+    align-items: center; */
+    /* justify-content: space-between;
+    column-gap: 80px;
+    margin-top: 300px;
+   
+} */ 
+.category__img{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.category__img__one img{
+width: 400px;
+height: 400px;
+}
+    .category__img__one h4{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .category__img__one p{
+     color: #ffffff80;
+      font-size: 15px;
+    }
+    .category h5{
+        font-size: 20px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .category__img__two img{
+        width: 400px;
+        height: 400px;
+        }
+            .category__img__two h4{
+                font-size: 30px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+                color: white;
+            }
+            .category__img__two p{
+             color: #ffffff80;
+              font-size: 15px;
+            }
+            .category h5{
+                font-size: 20px;
+                color: white;
+                margin-top: 20px;
+            }
+    
+
+            .category__img__three img{
+                width: 400px;
+                height: 400px;
+                }
+                    .category__img__three h4{
+                        font-size: 30px;
+                        margin-top: 50px;
+                        margin-bottom: 20px;
+                        color: white;
+                    }
+                    .category__img__three p{
+                     color: #ffffff80;
+                      font-size: 15px;
+                    }
+                    .category h5{
+                        font-size: 20px;
+                        color: white;
+                        margin-top: 20px;
+                    }
+    .category__img__middle{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 100px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    
+                    .category__img__four img{
+                        width: 400px;
+                        height: 400px;
+                        }
+                            .category__img__four h4{
+                                font-size: 30px;
+                                margin-top: 50px;
+                                margin-bottom: 20px;
+                                color: white;
+                            }
+                            .category__img__four p{
+                             color: #ffffff80;
+                              font-size: 15px;
+                            }
+                            .category h5{
+                                font-size: 20px;
+                                color: white;
+                                margin-top: 20px;
+                            }
+                    
+
+                            
+                    .category__img__five img{
+                        width: 400px;
+                        height: 400px;
+                        }
+                            .category__img__five h4{
+                                font-size: 30px;
+                                margin-top: 50px;
+                                margin-bottom: 20px;
+                                color: white;
+                            }
+                            .category__img__five p{
+                             color: #ffffff80;
+                              font-size: 15px;
+                            }
+                            .category h5{
+                                font-size: 20px;
+                                color: white;
+                                margin-top: 20px;
+                            }
+
+
+                            .category__img__six img{
+                                width: 400px;
+                                height: 400px;
+                                }
+                                    .category__img__six h4{
+                                        font-size: 30px;
+                                        margin-top: 50px;
+                                        margin-bottom: 20px;
+                                        color: white;
+                                    }
+                                    .category__img__six p{
+                                     color: #ffffff80;
+                                      font-size: 15px;
+                                    }
+                                    .category h5{
+                                        font-size: 20px;
+                                        color: white;
+                                        margin-top: 20px;
+                                    }
+.category__img__bottom{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+                                    .category__img__seven img{
+                                        width: 400px;
+                                        height: 400px;
+                                        }
+                                            .category__img__seven h4{
+                                                font-size: 30px;
+                                                margin-top: 50px;
+                                                margin-bottom: 20px;
+                                                color: white;
+                                            }
+                                            .category__img__seven p{
+                                             color: #ffffff80;
+                                              font-size: 15px;
+                                            }
+                                            .category h5{
+                                                font-size: 20px;
+                                                color: white;
+                                                margin-top: 20px;
+                                            }
+
+
+                                            
+                                    .category__img__eight img{
+                                        width: 400px;
+                                        height: 400px;
+                                        }
+                                            .category__img__eight h4{
+                                                font-size: 30px;
+                                                margin-top: 50px;
+                                                margin-bottom: 20px;
+                                                color: white;
+                                            }
+                                            .category__img__eight p{
+                                             color: #ffffff80;
+                                              font-size: 15px;
+                                            }
+                                            .category h5{
+                                                font-size: 20px;
+                                                color: white;
+                                                margin-top: 20px;
+                                            }
+                            
+
+                                            .category__img__nine img{
+                                                width: 400px;
+                                                height: 400px;
+                                                }
+                                                    .category__img__nine h4{
+                                                        font-size: 30px;
+                                                        margin-top: 50px;
+                                                        margin-bottom: 20px;
+                                                        color: white;
+                                                    }
+                                                    .category__img__nine p{
+                                                     color: #ffffff80;
+                                                      font-size: 15px;
+                                                    }
+                                                    .category h5{
+                                                        font-size: 20px;
+                                                        color: white;
+                                                        margin-top: 20px;
+                                                    }
+                                                    .category del{
+                                                        color: red;
+                                                        font-size: 20px;
+                                                        margin-top: 20px;
+                                                    }
+                                                    .category__price{
+                                                        display: flex;
+                                                        column-gap: 30px;
+                                                    }
+.category__favorite img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-bottom: 30px;
+    border: none;
+    
+}
+                            
+                    
