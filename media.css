@@ -3,9 +3,117 @@
         width: 1000px;
     }
 }
+    
 
-@media (max-width: 999px){
-    .container{
-        width: 800px;
-    }
+
+@media (max-width:999px){
+.container{
+    width: 800px;   
 }
+.category__img{
+    flex-direction: column;
+    align-items: center;
+}
+.category__img__middle{
+    flex-direction: column;
+    align-items: center;
+}
+.category__img__bottom{
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    margin-right: 500px;
+}
+.category__search{
+    margin-right: -330px;
+}
+.footer__h6{
+    margin-left: -50%;
+}
+
+}
+@media (max-width:799px){
+.container{
+    width: 600px;
+}
+.category__img{
+    flex-direction: column;
+    align-items: center;
+}
+.category__img__middle{
+    flex-direction: column;
+    align-items: center;
+}
+.category__img__bottom{
+    flex-direction: column;
+    align-items: center;
+}
+.two__text p{
+ font-size: 20px;
+}
+.two__text h4{
+    font-size: 25px;
+}
+.category h2{
+    font-size: 28px;
+}
+.category__search{
+    margin-right: -410px;
+}
+
+
+}
+@media (max-width: 599px){
+        .container{
+        width: 400px;
+    }
+    .category__img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .category__img__middle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .category__img__bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .two__text p{
+        font-size: 20px;
+       }
+       .two__text h4{
+           font-size: 25px;
+       }
+       .category h2{
+           font-size: 28px;
+       }
+}
+    @media (max-width: 399px){
+        .container{
+            width: 85%;
+        }
+
+        .call_btns{
+            flex-direction: column;
+            row-gap: 20px;
+            margin: 0;
+        }
+        .first_sec h1{
+            font-size: 50px;
+        }
+        .logo {
+            width: 160px;
+            height: 27px;
+        }
+        .icons{
+            margin-right: 0;
+        }
+        .header_left{
+            column-gap: 10px;
+        }
+        .header_box{
+            padding: 0;
+        }
+    }
