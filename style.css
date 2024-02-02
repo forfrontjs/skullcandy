@@ -165,7 +165,7 @@ header {
     padding-right: 15px;
     display: flex;
     position: relative;
-    /* align-items: center; */
+
 }
 .search_input{
   padding: 0px 55px;
