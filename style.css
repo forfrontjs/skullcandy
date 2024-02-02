@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -280,16 +281,17 @@ header {
     width: 20px;
     height: 18px;
     position: absolute;
-    right: 204px;
+    right: 288px;
     bottom: 155px;
     border-left: none;
+
 
 }
 
 .category input {
     width: 400px;
     height: 30px;
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: 50px;
     margin-bottom: 150px;
     border: none ;
@@ -301,6 +303,7 @@ header {
 
 .category__img {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 100px;
     text-align: center;
@@ -379,6 +382,7 @@ header {
 
 .category__img__middle {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 100px;
     text-align: center;
@@ -458,6 +462,7 @@ header {
 
 .category__img__bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 100px;
     text-align: center;
@@ -585,3 +590,6 @@ header {
     display: flex;
     align-items: center;
 }
+
+
+
