@@ -33,9 +33,8 @@ header {
 .icons img {
     width: 25px;
     height: 25px;
-
+    cursor: pointer;
 }
-
 .icons {
     column-gap: 50px;
     margin-right: 40px;
@@ -49,8 +48,9 @@ header {
 .burger_btn {
     width: 28px;
     height: 3px;
-    background: black;
+    background: white;
     position: relative;
+    cursor: pointer;
 }
 
 .burger_btn::before {
@@ -58,8 +58,9 @@ header {
     position: absolute;
     width: 28px;
     height: 3px;
-    background: black;
+    background: white;
     top: -8px;
+    cursor: pointer;
 }
 
 .burger_btn::after {
@@ -69,20 +70,25 @@ header {
     height: 3px;
     background: white;
     top: 8px;
+    cursor: pointer;
 }
 
 .burger_btn.active {
     background: none;
+    cursor: pointer;
 }
 
 .burger_btn.active::after {
     transform: rotate(-45deg);
     top: 0;
+    cursor: pointer;
 
 }
 
 .burger_btn.active::before {
     transform: rotate(45deg);
+    top: 0;  
+    cursor: pointer;
     top: 0;
 
 }
@@ -134,7 +140,57 @@ header {
 
 }
 
-.burger ul li {
+.search_form.search_active{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    padding: 45px 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.search_form{
+    display: none;
+}
+
+.block_input{
+    width: 760px;
+    height: 60px;
+    border: 1px solid rgba(196,196,196,1);
+    padding-right: 15px;
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+}
+.search_input{
+  padding: 0px 55px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.form_search-icon{
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    top: 2px;
+    bottom: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 45px;
+}
+
+.clear_button{
+    cursor: pointer;
+}
+
+.burger ul li{
     margin: 0 0 20px;
 }
 
@@ -287,6 +343,7 @@ header {
 
 
 }
+
 
 .category input {
     width: 400px;

@@ -4,3 +4,8 @@ let popup = ()=>{
     burger.classList.toggle('active')
     burgerBtn.classList.toggle('active')
 }
+
+let search_form = document.querySelector('.search_form')
+let search_pop = ()=>{
+    search_form.classList.toggle('search_active')
+}

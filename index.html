@@ -17,7 +17,7 @@
                     src="https://static.tildacdn.net/tild3961-6631-4137-a161-373161623364/skullcandy_bianco.png" alt="">
                 <div class="header_left">
                     <div class="icons">
-                        <img src="image/search (1).png" alt="">
+                        <img src="image/search (1).png" alt="" onclick="search_pop()">
                         <img src="image/heart.svg" alt="">
                         <svg class="t-menuwidgeticons__img t-menuwidgeticons__img_carticon" width="22" height="22"
                             viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,6 +50,15 @@
                 </div>
             </div>
         </div>
+        <form class="search_form" action="">
+            <div class="block_input">
+                <svg role="presentation" class="form_search-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle r="7.93388" transform="matrix(0.715639 0.698471 -0.715639 0.698471 18.5859 11.7816)" stroke-width="1.0" stroke="#b6b6b6"></circle><line y1="-0.5" x2="9.17531" y2="-0.5" transform="matrix(-0.715635 0.698474 -0.715635 -0.698474 12.75 16.9609)" stroke-width="1.0" stroke="#b6b6b6"></line></svg>
+                <input type="text" placeholder="Поиск" class="search_input">
+            </div>
+            <div class="clear_button" onclick="search_pop()">
+                <svg role="presentation" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.754014 27.4806L27.0009 1.32294" stroke="black"></path><path d="M26.9688 27.5665L0.757956 1.39984" stroke="black"></path></svg>
+            </div>
+        </form>
     </header>
     <main>
         <section class="banner">
