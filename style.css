@@ -154,6 +154,88 @@ header {
     column-gap: 40px;
 }
 
+.korzina_from{
+    display: none;
+}
+
+.korzina_from.korzina_active{
+    display: flex;
+    justify-content: center;
+}
+.korzina_box{
+    width: 560px;
+    /* height: 833px; */
+    background: white;
+    position: absolute;
+    padding: 40px;
+    
+}
+
+.korzina_box h5{
+    font-size: 22px;
+    padding: 0px 0px 30px;
+}
+
+.first_name{
+    font-size: 16px;
+    padding: 0 10px 5px 0;
+    display: block;
+}
+.korzina_first_p{
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.korzina_box input{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0 20px;
+    width: 100%;
+    height: 56px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.korzina_box select{
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 45px 0 20px;
+    height: 56px;
+    line-height: 1.33;
+    outline: 0;
+    background: white;
+    font-size: 16px;
+}
+
+.korzina_box .last_p{
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.korzina_box ul li{
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.korzina_box button{
+    width: 100%;
+    height: 56px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    outline: none;
+    margin: 30px 0 10px;
+    border: none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 700;
+}
 .search_form{
     display: none;
 }
@@ -165,7 +247,7 @@ header {
     padding-right: 15px;
     display: flex;
     position: relative;
-    /* align-items: center; */
+
 }
 .search_input{
   padding: 0px 55px;

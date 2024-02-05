@@ -19,7 +19,7 @@
                     <div class="icons">
                         <img src="image/search (1).png" alt="" onclick="search_pop()">
                         <img src="image/heart.svg" alt="">
-                        <svg class="t-menuwidgeticons__img t-menuwidgeticons__img_carticon" width="22" height="22"
+                        <svg class="t-menuwidgeticons__img t-menuwidgeticons__img_carticon"  onclick="korzina_pop()" width="22" height="22"
                             viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M3.67986 6.91023C3.72631 6.39482 4.15832 6 4.67582 6H17.3242C17.8417 6 18.2737 6.39482 18.3201 6.91023L19.4018 18.9102C19.4545 19.4956 18.9935 20 18.4058 20H3.59419C3.00646 20 2.54547 19.4956 2.59823 18.9102L3.67986 6.91023Z"
@@ -57,6 +57,29 @@
             </div>
             <div class="clear_button" onclick="search_pop()">
                 <svg role="presentation" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.754014 27.4806L27.0009 1.32294" stroke="black"></path><path d="M26.9688 27.5665L0.757956 1.39984" stroke="black"></path></svg>
+            </div>
+        </form>
+        <form action="" class="korzina_from">
+            <div class="korzina_box">
+                <h5>Ваш заказ</h5>
+                <p class="korzina_first_p">Корзина пуста. Добавьте в корзину хотя бы один товар</p>
+                <p class="first_name">Ваше имя</p>
+                <input type="text">
+                <p class="first_name">Ваш телефон</p>
+                <input type="text">
+                <p class="first_name">Адрес доставки</p>
+                <input type="text">
+                <p class="first_name">Способ оплаты</p>
+                <select name="" id="">
+                    <option value="Наличные (Оплата курьеру при получении товара)">Наличные (Оплата курьеру при получении товара)</option>
+                    <option value="Банковская карта/Электронные деньги (Отправляем товар после оплаты. Менеджер отправит все возможные способы оплаты)">Банковская карта/Электронные деньги (Отправляем товар после оплаты. Менеджер отправит все возможные способы оплаты)</option>
+                </select>
+                <p class="last_p">Доставка бесплатная по всему Кыргызстану!</p>
+                <ul>
+                    <li>Доставка в регионы Кыргызстана, Казахстан и Россию оформляется только после полной оплаты.</li>
+                    <li>Стоимость доставки в Казахстан и Россию обговаривается индивидуально в зависимости от города доставки и веса наушников.</li>
+                </ul>
+                <button>Оформить</button>
             </div>
         </form>
     </header>
@@ -148,15 +171,7 @@
                             <del>6 000сом</del>
                         </div>
                     </div>
-                    <div class="category__img__three">
-                        <div class="category__favorite">
-                            <img src="image/favorite 1.png" alt="">
-                        </div>
-                        <img src="image/mod.jpg" alt="">
-                        <h4>Mod</h4>
-                        <p>Mod-бюджетные TWS-наушники с параллельными <br> подключением и Bluetooth 5.2.</p>
-                        <h5>5 800 сом</h5>
-                    </div>
+        
                 </div>
                 <div class="category__img__middle">
                     <div class="category__img__four">
@@ -168,16 +183,6 @@
                         <p>Rail ANC-это новые наушники с регулируемым <br>
                             цифровым активным шумоподавлением на 4 <br> микрофона.</p>
                         <h5>9 800 сом</h5>
-                    </div>
-                    <div class="category__img__five">
-                        <div class="category__favorite">
-                            <img src="image/favorite 1.png" alt="">
-                        </div>
-                        <img src="image/push active.jpg" alt="">
-                        <h4>Push Active</h4>
-                        <p>Наушники Skullcandy Push Active ориентированы на <br> спортсменов и активный образ жизни.
-                        </p>
-                        <h5>7 200 сом</h5>
                     </div>
                     <div class="category__img__six">
                         <div class="category__favorite">
@@ -213,18 +218,6 @@
                             цифровое активное шумоподавление с 4 <br> микрофонами.</p>
                         <h5>7 800 сом</h5>
                     </div>
-                    <div class="category__img__nine">
-                        <div class="category__favorite">
-                            <img src="image/favorite 1.png" alt="">
-                        </div>
-                        <img src="image/dime.jpg" alt="">
-                        <h4>Dime</h4>
-                        <p>Skullcandy Dime это дизайнерский аналог наушников Apple AirPods.</p>
-                        <div class="category__price">
-                            <h5>3 400 сом</h5>
-                            <del>4 000 сом</del>
-                        </div>
-                    </div>
                 </div>
             </div>
     </main>
@@ -244,17 +237,11 @@
                         <br> <br>
                         Осуществляем доставку в Казахстан и Россию через курьерскую <br> службу СДЭК. Стоимость доставки
                         обговаривается индивидуально в <br> зависимости от города доставки и веса наушников.</h4>
-                   <!-- `    <div class="footer__line">
-                        <img src="./image/line.png" alt="">
-                    </div> -->
+                
                 </div>
                 <div class="footer_what">
                     <img src="./image/skullcandy_bianco.png" alt="">
-                    <div class="footer__h6">
-                    <h6 class="rule">© Все права защищены. <br>
-                        Skullcandy.kgbr <br>
-                        2016-2023 <br></h6>
-                    </div>
+       
                 </div>
 
 
