@@ -11,6 +11,8 @@ let search_pop = ()=>{
 }
 
 let korzina_from = document.querySelector('.korzina_from')
+const body = document.querySelector("body")
 let korzina_pop = ()=>{
     korzina_from.classList.toggle('korzina_active')
+    body.classList.toggle('lock')
 }
